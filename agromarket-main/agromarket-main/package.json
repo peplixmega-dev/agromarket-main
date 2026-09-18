@@ -1,0 +1,21 @@
+{
+  "name": "agromarket-react",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "server": "json-server --watch db.json --port 3001",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "json-server": "^0.17.4",
+    "vite": "^5.4.14"
+  }
+}
